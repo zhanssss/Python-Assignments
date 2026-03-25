@@ -41,3 +41,4 @@ print("Scholarship granted", average >= 90)
 print("Perfect score", perfectScore)
 print("=============================")
 
+
