@@ -32,8 +32,12 @@ print("Scholarship: ", scholarship)
 
 # d
 
+perfectScore = False
+if(math == 100 and phy == 100 and py == 100):
+    perfectScore = True
+
 print("==============================")
 print("Scholarship granted", average >= 90)
-print("Perfect score", )
+print("Perfect score", perfectScore)
 print("=============================")
 
