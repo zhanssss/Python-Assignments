@@ -3,7 +3,7 @@ name = input("Enter student name: ")
 math = float(input("Enter Math grade: "))
 phy = float(input("Enter Physics grade: "))
 py = float(input("Enter Python grade: "))
-grade = "A"
+grade = ""
 
 # C1
 
@@ -23,7 +23,7 @@ elif average < 50 :
 else:
     print("Please enter a valid grade.")
 
-if average >= 90 and math >= 70 and phy >= 70 and py >= 70:
+if average >= 70 and math >= 70 and phy >= 70 and py >= 70:
     isScholarship = True
 else:
     isScholarship = False
