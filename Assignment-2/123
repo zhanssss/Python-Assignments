@@ -1,0 +1,53 @@
+# Variant C
+name = input("Enter student name: ")
+math = float(input("Enter Math grade: "))
+phy = float(input("Enter Physics grade: "))
+py = float(input("Enter Python grade: "))
+grade = ""
+
+# C1
+
+average = (math + phy + py) / 3
+isScholarship = False
+
+if average >= 90 :
+    grade = "A"
+elif average >= 75:
+    grade = "B"
+elif average >= 60:
+    grade = "C"
+elif average >= 50 :
+    grade = "D"
+elif average < 50 :
+    grade = "F"
+else:
+    print("Please enter a valid grade.")
+
+if average >= 70 and math >= 70 and phy >= 70 and py >= 70:
+    isScholarship = True
+else:
+    isScholarship = False
+
+# C2
+grades = [math, phy, py]
+subjects = ["Math", "Physics", "Phyton"]
+
+for i in range len(grades)
+    if grades[i] >= 90:
+        print(subjects[i],": Excellent")
+    elif grades[i] >= 75:
+        print(subjects[i],": Good")
+    elif grades[i] >= 60
+        print(subjects[i],": Satisfactory")
+    elif grades[i] < 60:
+        print(subjects[i], ": Fail")
+    else:
+        print("Invalid Grade")
+
+# C3
+
+print("Name uppercase : ", name.upper())
+print("Name lowercase : ", name.lower())
+print("Name length : ", len(name))
+print("Masked Name : ", name.replace(name[0], "*", 1))
+
